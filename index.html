@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
@@ -15,21 +15,39 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  
+  <div class="main-container">
 
-  80K
-  Followers
+    <div class="card">
+      <img class="pattern-card" src="/images/bg-pattern-card.svg" alt=""><br>
+      <img class="profile-photo" src="/images/image-victor.jpg" alt="Victor Crest">
 
-  803K
-  Likes
+      <section>
+        <h3>Victor Crest</h3>
+        <span class="age">26</span>
+        <p>London</p>
+      </section>
+      
+      <table>
+        <tr class="stats">
+          <td>80K</td>
+          <td>803K</td>
+          <td>1.4K</td>
+        </tr>
+        <tr class="stat-name">
+          <td>Followers</td>
+          <td>Likes</td>
+          <td>Photos</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 
-  1.4K
-  Photos
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mateusz Wójciak</a>.
+    </footer>
   </div>
 </body>
 </html>
